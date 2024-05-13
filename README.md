@@ -5,3 +5,7 @@ This is just going to be an archive I dump whatever custom widgets I may make fo
 
 To add any Custom Widget you just have to click Custom Widget in Static/Custom
 ![](https://i.imgur.com/Z4VEU2t.png)
+
+
+## Widgets
+- GroupedCumulativeGoal - Combines Follows, Subs, Tips, & Cheers into one goal
