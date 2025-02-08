@@ -40,7 +40,7 @@ function analyzePoints() {
     let subsAmount = data["subscriber-session"]["count"];
     let tipsAmount = data["tip-session"]["amount"];
     let followerAmount = data["follower-session"]["count"];
-    currentPoints += subsAmount * fieldData.pointsPerSub;
+    currentPoints = subsAmount * fieldData.pointsPerSub;
     currentPoints += tipsAmount * fieldData.pointsPerTip;
     currentPoints += (bitsAmount/100) * fieldData.pointsPerBit;
     currentPoints += followerAmount * fieldData.pointsPerFollow;
