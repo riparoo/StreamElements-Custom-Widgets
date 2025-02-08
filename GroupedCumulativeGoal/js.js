@@ -6,7 +6,7 @@ window.addEventListener('onWidgetLoad', function (obj) {
     fieldData = obj.detail.fieldData;
     goal = fieldData["goal"];
     sessionData = obj["detail"]["session"]["data"];
-  	analysePoints();
+    analyzePoints();
 });
 
 window.addEventListener('onEventReceived', function (obj) {
@@ -21,7 +21,6 @@ window.addEventListener('onEventReceived', function (obj) {
             currentPoints += (data.amount/100) * fieldData.pointsPerBit;
             break;
         case 'tip-latest':
-			console.log(data);
             currentPoints += data.amount * fieldData.pointsPerTip;
             break;
         case 'subscriber-latest':
@@ -35,13 +34,13 @@ window.addEventListener('onEventReceived', function (obj) {
 });
 
 
-function analysePoints() {
+function analyzePoints() {
     let data = sessionData;
     let bitsAmount = data["cheer-session"]["amount"];
     let subsAmount = data["subscriber-session"]["count"];
     let tipsAmount = data["tip-session"]["amount"];
     let followerAmount = data["follower-session"]["count"];
-    currentPoints = subsAmount * fieldData.pointsPerSub;
+    currentPoints += subsAmount * fieldData.pointsPerSub;
     currentPoints += tipsAmount * fieldData.pointsPerTip;
     currentPoints += (bitsAmount/100) * fieldData.pointsPerBit;
     currentPoints += followerAmount * fieldData.pointsPerFollow;
