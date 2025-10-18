@@ -1,0 +1,170 @@
+{
+  "milestone1_number": {
+    "type": "text",
+    "label": "Milestone 1 Number",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "milestone1_text": {
+    "type": "text",
+    "label": "Milestone 1 Text",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "milestone1_image": {
+    "type": "image-input",
+    "label": "Milestone 1 Image",
+    "group": "🏆 Milestones"
+  },
+  "milestone1_sound": {
+    "type": "sound-input",
+    "label": "Milestone 1 Sound",
+    "group": "🏆 Milestones"
+  },
+  "milestone2_number": {
+    "type": "text",
+    "label": "Milestone 2 Number",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "milestone2_text": {
+    "type": "text",
+    "label": "Milestone 2 Text",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "milestone2_image": {
+    "type": "image-input",
+    "label": "Milestone 2 Image",
+    "group": "🏆 Milestones"
+  },
+  "milestone2_sound": {
+    "type": "sound-input",
+    "label": "Milestone 2 Sound",
+    "group": "🏆 Milestones"
+  },
+  "milestone3_number": {
+    "type": "text",
+    "label": "Milestone 3 Number",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "milestone3_text": {
+    "type": "text",
+    "label": "Milestone 3 Text",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "milestone3_image": {
+    "type": "image-input",
+    "label": "Milestone 3 Image",
+    "group": "🏆 Milestones"
+  },
+  "milestone3_sound": {
+    "type": "sound-input",
+    "label": "Milestone 3 Sound",
+    "group": "🏆 Milestones"
+  },
+  "milestone4_number": {
+    "type": "text",
+    "label": "Milestone 4 Number",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "milestone4_text": {
+    "type": "text",
+    "label": "Milestone 4 Text",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "milestone4_image": {
+    "type": "image-input",
+    "label": "Milestone 4 Image",
+    "group": "🏆 Milestones"
+  },
+  "milestone4_sound": {
+    "type": "sound-input",
+    "label": "Milestone 4 Sound",
+    "group": "🏆 Milestones"
+  },
+  "milestone5_number": {
+    "type": "text",
+    "label": "Milestone 5 Number",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "milestone5_text": {
+    "type": "text",
+    "label": "Milestone 5 Text",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "milestone5_image": {
+    "type": "image-input",
+    "label": "Milestone 5 Image",
+    "group": "🏆 Milestones"
+  },
+  "milestone5_sound": {
+    "type": "sound-input",
+    "label": "Milestone 5 Sound",
+    "group": "🏆 Milestones"
+  },
+  "subGoal": {
+    "type": "text",
+    "label": "Sub Goal",
+    "value": "10",
+    "group": "🏆 Milestones"
+  },
+  "subGoalImage": {
+    "type": "image-input",
+    "label": "Sub Goal Image",
+    "group": "🏆 Milestones"
+  },
+  "subGoal_text": {
+    "type": "text",
+    "label": "Sub Goal Text",
+    "value": "",
+    "group": "🏆 Milestones"
+  },
+  "subGoal_sound": {
+    "type": "sound-input",
+    "label": "Sub Goal Sound",
+    "group": "🏆 Milestones"
+  },
+  "primaryColor": {
+    "type": "colorpicker",
+    "label": "Progress Bar - Primary",
+    "value": "#9147ff",
+    "group": "🎨 Colors"
+  },
+  "progressColor": {
+    "type": "colorpicker",
+    "label": "Progress Bar - Secondary",
+    "value": "#5a3da8",
+    "group": "🎨 Colors"
+  },
+  "secondaryColor": {
+    "type": "colorpicker",
+    "label": "Background Bar Color",
+    "value": "rgba(20,20,25,0.8)",
+    "group": "🎨 Colors"
+  },
+  "textColor": {
+    "type": "colorpicker",
+    "label": "Text Color",
+    "value": "#ffffff",
+    "group": "🎨 Colors"
+  },
+  "highlightColor": {
+    "type": "colorpicker",
+    "label": "Milestone Border Color",
+    "value": "#bf94ff",
+    "group": "🎨 Colors"
+  },
+  "fontFamily": {
+    "type": "googleFont",
+    "label": "Select a font:",
+    "value": "Nunito",
+    "group": "🅰️ Font"
+  }
+}
