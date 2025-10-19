@@ -9,3 +9,4 @@ To add any Custom Widget you just have to click Custom Widget in Static/Custom
 
 ## Widgets
 - GroupedCumulativeGoal - Combines Follows, Subs, Tips, & Cheers into one goal
+- SubGoalWithMilestones - Track Subs and Gifted Subs while having Milestone alerts as well
